@@ -91,7 +91,7 @@
 				var oDiv2 = document.getElementById("div2");
 				var oDiv3 = document.getElementById("div3");
 				var oDiv4 = document.getElementById("div4");
-				var oJason = "noEcho";	
+				var oJason = "noEcho";	//ignore this line
 				oSelect1.onchange = function () {
 					var newValue = this.options[this.selectedIndex].value;
 					if (newValue == "legislators") {
